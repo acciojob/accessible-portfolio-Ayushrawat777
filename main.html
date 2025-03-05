@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Heading -->
+    <h1 role="heading">My Portfolio</h1>
+
+    <!-- Navigation Bar -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Profile Image -->
+    <img src="profile.jpg" alt="A photo of myself" role="img">
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 role="heading">About Me</h2>
+        <p>I am a passionate web developer skilled in front-end and back-end technologies.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 role="heading">Projects</h2>
+        <ul role="list">
+            <li role="listitem">Portfolio Website</li>
+            <li role="listitem">E-commerce App</li>
+            <li role="listitem">Task Manager</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 role="heading">Contact</h2>
+        <p>Email: example@email.com</p>
+    </section>
 
 </body>
-
 </html>
